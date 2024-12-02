@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* our styles from here */
+
+/* App.css */
+
+
+/* Filter Dropdown */
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.filter label {
+  font-weight: bold;
+}
+
+.filter select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Existing Styles */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.ticket-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticket-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.ticket-card p {
+  margin: 0;
+  color: #555;
+}
